@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "golden_chalk": {
+      "conditions": {
+        "recipe": "ediblechalk:golden_chalk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "chalk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ediblechalk:chalk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "golden_chalk",
+      "chalk",
+      "gold_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ediblechalk:golden_chalk"
+    ]
+  }
+}

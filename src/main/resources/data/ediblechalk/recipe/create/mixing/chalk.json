@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "ediblechalk:chalk_dust"
+    },
+    {
+      "item": "ediblechalk:chalk_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "ediblechalk:chalk",
+      "count": 4
+    }
+  ]
+}

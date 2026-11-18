@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "chalk_dust_recipe": {
+      "conditions": {
+        "recipe": "ediblechalk:chalk_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calcite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chalk_dust_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ediblechalk:chalk_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "chalk_dust_recipe",
+      "calcite",
+      "chalk_dust_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ediblechalk:chalk_dust"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "item.ediblechalk.chalk": "Chalk",
+  "item.ediblechalk.golden_chalk": "Golden Chalk",
+  "item.ediblechalk.chalk_dust": "Chalk Dust",
+  "advancements.chalk_age.title": "Chalk Age",
+  "advancements.chalk_age.descr": "Obtain chalk",
+  "advancements.golden.title": "Golden!?",
+  "advancements.golden.descr": "Obtain golden chalk",
+  "advancements.you_can_eat_it.title": "You can eat it?",
+  "advancements.you_can_eat_it.descr": "Eat chalk",
+  "itemGroup.ediblechalk.base": "Edible Chalk"
+}

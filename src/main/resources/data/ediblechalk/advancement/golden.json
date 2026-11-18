@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "ediblechalk:golden_chalk"
+    },
+    "title": {
+      "translate": "advancements.golden.title"
+    },
+    "description": {
+      "translate": "advancements.golden.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "golden_chalk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ediblechalk:golden_chalk"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ediblechalk:chalk_age"
+}

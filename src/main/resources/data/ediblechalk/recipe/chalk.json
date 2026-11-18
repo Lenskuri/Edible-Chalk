@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "ediblechalk:chalk_dust"
+    }
+  },
+  "result": {
+    "id": "ediblechalk:chalk",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "ediblechalk:chalk"
+    }
+  },
+  "result": {
+    "id": "ediblechalk:golden_chalk",
+    "count": 2
+  }
+}

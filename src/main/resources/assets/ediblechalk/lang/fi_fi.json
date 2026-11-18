@@ -1,0 +1,12 @@
+{
+  "item.ediblechalk.chalk": "Liitu",
+  "item.ediblechalk.golden_chalk": "Kultaliitu",
+  "item.ediblechalk.chalk_dust": "Liitujauhe",
+  "advancements.chalk_age.title": "Liitukausi",
+  "advancements.chalk_age.descr": "Hanki liitua",
+  "advancements.golden.title": "Kultainen!?",
+  "advancements.golden.descr": "Hanki kultaliitua",
+  "advancements.you_can_eat_it.title": "Voit syödä sitä?",
+  "advancements.you_can_eat_it.descr": "Syö liitua",
+  "itemGroup.ediblechalk.base": "Edible Chalk"
+}

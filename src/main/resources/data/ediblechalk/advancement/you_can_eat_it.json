@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "ediblechalk:chalk"
+    },
+    "title": {
+      "translate": "advancements.you_can_eat_it.title"
+    },
+    "description": {
+      "translate": "advancements.you_can_eat_it.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chalk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "ediblechalk:chalk"
+        }
+      }
+    },
+    "golden_chalk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "ediblechalk:golden_chalk"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chalk",
+      "golden_chalk"
+    ]
+  ],
+  "parent": "ediblechalk:chalk_age"
+}
